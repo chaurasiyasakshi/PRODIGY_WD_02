@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+
+  }
+
+  .heading{
+    color: #fff;
+    font-size: 3em;
+  }
+  
+  .stopwatch {
+    margin: 0 auto;
+    background-color: #000;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    width: 300px;
+  }
+  
+  .stopwatch h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 200px;
+  }
+  
+  .stopwatch button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .stopwatch button:hover {
+    background-color: #0056b3;
+  }
+  
+  #laps {
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 0;
+    line-height: 20px;
+    list-style-type: none;
+    color: #fff;
+  }
+  
+  #laps li {
+    margin-bottom: 5px;
+  }
